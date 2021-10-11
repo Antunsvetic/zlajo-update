@@ -219,6 +219,20 @@ a {
   font-size: 1.3rem;
 }
 
+@media screen and (max-width: 980px) {
+  #outer {
+    display: flex;
+    flex-flow: column;
+  }
+  #a {
+    order: -1;
+  }
+
+  #footer {
+    margin-top: 8%;
+  }
+}
+
 @media screen and (max-width: 580px) {
   #footer {
     margin-top: 20%;
