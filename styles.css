@@ -219,24 +219,30 @@ a {
   font-size: 1.3rem;
 }
 
-@media screen and (max-width: 980px) {
-  #outer {
-    display: flex;
-    flex-flow: column;
-  }
-  #a {
-    order: -1;
-  }
-
+@media screen and (max-width: 580px) {
   #footer {
-    margin-top: 8%;
+    margin-top: 20%;
+    margin-bottom: 15%;
+  }
+}
+@media screen and (max-width: 437px) {
+  #footer {
+    margin-top: 30%;
+    margin-bottom: 30%;
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 391px) {
   #footer {
-    margin-top: 15%;
-    margin-bottom: 12%;
+    margin-top: 40%;
+    margin-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 334px) {
+  #footer {
+    margin-top: 40%;
+    margin-bottom: 30%;
   }
 }
 
