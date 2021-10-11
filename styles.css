@@ -233,7 +233,7 @@ a {
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 580px) {
   #footer {
     margin-top: 15%;
     margin-bottom: 12%;
