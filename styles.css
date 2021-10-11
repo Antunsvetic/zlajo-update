@@ -233,6 +233,13 @@ a {
   }
 }
 
+@media screen and (max-width: 780px) {
+  #footer {
+    margin-top: 15%;
+    margin-bottom: 12%;
+  }
+}
+
 footer {
   border-top: 1px solid rgba(128, 128, 128, 0.438);
   text-align: center;
